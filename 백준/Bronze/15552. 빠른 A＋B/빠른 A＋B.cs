@@ -7,7 +7,7 @@ class Program
     {
         string n = Console.ReadLine();
         StringBuilder sb = new StringBuilder();     
-        for(long a = 1; a <= long.Parse(n); a++)
+        for(int a = 1; a <= int.Parse(n); a++)
         {
             string[] Plus = Console.ReadLine().Split(); 
             sb.AppendLine((int.Parse(Plus[0]) + int.Parse(Plus[1])).ToString());
