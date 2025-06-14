@@ -20,6 +20,6 @@ class Program
                 sb.Append(input2[a] + " ");
         }
         
-        Console.WriteLine(sb.ToString().Trim());
+        Console.WriteLine(sb);
     }
 }
