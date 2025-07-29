@@ -1,9 +1,4 @@
-using System;
 
-class Program
-{
-    static void Main(string[] args)
-    {
         string[] input = Console.ReadLine().Split();
 
         string[] input2 = Console.ReadLine().Split();
@@ -12,7 +7,7 @@ class Program
 
         int input_val = int.Parse(input[1]);
 
-        int sum = -1;
+        int sum = 0;
         int min = 0;
         int[] num = new int[count];
 
@@ -37,5 +32,5 @@ class Program
             }
         }
         Console.Write(min);
-    }
-}
+    
+
