@@ -20,7 +20,6 @@ class Program
 
         List<string> keys = new List<string>(men.Keys);
 
-        keys.Sort();
         keys.Sort((a, b) => b.CompareTo(a));
         
         foreach (string key in keys)
