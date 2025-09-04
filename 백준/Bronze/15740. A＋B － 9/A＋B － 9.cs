@@ -1,6 +1,6 @@
 string[] input = Console.ReadLine().Split();
 
-ulong a = ulong.Parse(input[0]);
-ulong b = ulong.Parse(input[1]);
+long a = long.Parse(input[0]);
+long b = long.Parse(input[1]);
 
 Console.WriteLine(a + b);
