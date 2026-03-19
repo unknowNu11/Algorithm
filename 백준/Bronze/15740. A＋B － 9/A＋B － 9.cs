@@ -1,6 +1,8 @@
+using System.Numerics;
+
 string[] input = Console.ReadLine().Split();
 
-long a = long.Parse(input[0]);
-long b = long.Parse(input[1]);
+BigInteger a = BigInteger.Parse(input[0]);
+BigInteger b = BigInteger.Parse(input[1]);
 
 Console.WriteLine(a + b);
