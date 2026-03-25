@@ -43,7 +43,6 @@ static void GuessNumber(int num)
         Console.WriteLine("Buzz");
         return;
     }
-    
     Console.WriteLine(num);
 }
 }
